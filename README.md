@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/quielLovesLasagna/newsletter-signup-form-with-success-message](https://github.com/quielLovesLasagna/newsletter-signup-form-with-success-message)
+- Live Site URL: [https://quiel-newsletter-signup-form.netlify.app/](https://quiel-newsletter-signup-form.netlify.app/)
 
 ## My process
 
