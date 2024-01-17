@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="This is a solution to the Newsletter sign-up form with success message challenge on Frontend Mentor"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="../assets/images/favicon-32x32.png"
+		/>
+		<!-- SCSS -->
+		<link rel="stylesheet" href="./scss/main.scss" />
+		<!-- SCRIPT -->
+		<script defer type="module" src="./js/script.js"></script>
+		<title>
+			Frontend Mentor | Newsletter sign-up form with success message
+		</title>
+	</head>
+	<body>
+		<main>
+			<div class="card">
+				<picture>
+					<source
+						srcset="../assets/images/illustration-sign-up-mobile.svg"
+						media="(max-width: 57.5em)"
+					/>
+					<img
+						src="../assets/images/illustration-sign-up-desktop.svg"
+						alt="An ilustration showing a graph with a gadget background, and a number 94 "
+						class="card__image"
+					/>
+				</picture>
+				<div class="card__text-content">
+					<h1 class="card__heading-primary">Stay updated!</h1>
+					<p class="card__text">
+						Join 60,000+ product managers receiving monthly updates on:
+					</p>
+					<ul class="card__list">
+						<li class="card__list-item">
+							<img
+								src="../assets/images/icon-list.svg"
+								alt="Check icon"
+								class="card__list-icon"
+							/>
+							<p class="card__list-text">
+								Product discovery and building what matters
+							</p>
+						</li>
+						<li class="card__list-item">
+							<img
+								src="../assets/images/icon-list.svg"
+								alt="Check icon"
+								class="card__list-icon"
+							/>
+							<p class="card__list-text">
+								Measuring to ensure updates are a success
+							</p>
+						</li>
+						<li class="card__list-item">
+							<img
+								src="../assets/images/icon-list.svg"
+								alt="Check icon"
+								class="card__list-icon"
+							/>
+							<p class="card__list-text">And much more!</p>
+						</li>
+					</ul>
+					<form action="#" class="card__from">
+						<div class="card__form-input-container">
+							<label for="email" class="card__form-label">Email address</label>
+							<input
+								type="text"
+								id="email"
+								placeholder="email@company.com"
+								name="email"
+								class="card__form-input"
+							/>
+							<span class="error-message"> Valid email required </span>
+						</div>
+						<button type="submit" class="card__form-btn">
+							Subscribe to monthly newsletter
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="success__card">
+				<img
+					src="../assets/images/icon-success.svg"
+					alt="Check icon"
+					class="success__card-icon"
+				/>
+				<h2 class="success__card-heading-secondary">Thanks for subscribing!</h2>
+				<p class="success__card-text">
+					A confirmation email has been sent to
+					<span>ash@loremcompany.com</span>. Please open it and click the button
+					inside to confirm your subscription.
+				</p>
+				<button class="success__card-btn">Dismiss message</button>
+			</div>
+		</main>
+	</body>
+</html>
